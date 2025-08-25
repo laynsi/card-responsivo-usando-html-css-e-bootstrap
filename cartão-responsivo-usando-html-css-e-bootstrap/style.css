@@ -1,0 +1,68 @@
+.card {
+    border: none
+}
+
+.card:hover {
+    opacity: 0.9;
+}
+
+.foto {
+    width: 80%;
+}
+
+.foto:hover {
+    cursor: pointer;
+}
+
+.titulos {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: rgb(247, 247, 247);
+    writing-mode: sideways-lr;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+}
+
+.titulo ,subtitulo {
+    margin: 0px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.titulo {
+    font-size: 22px;
+    color: #333;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #444;
+    font-weight: light;
+    margin: 10px;
+}
+
+.redessociais {
+    padding: 10px;
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+
+}
+
+.redessociais a:link,
+.redessociais a:active,
+.redessociais a:visited {
+    color: #222;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.redessociais a:link:hover {
+    color: #000;
+}
